@@ -2,14 +2,14 @@
 
 <div>
     <el-button type="primary">btn</el-button>
-    <svgDemo></svgDemo>
+    <Svg-Icon name="home" color="pink" width="120px" height="120px"></Svg-Icon>
 </div>
 
 </template>
 
 <script lang='ts' setup>
 import { ref,reactive } from 'vue'
-import svgDemo from '@/components/svgDemo.vue';
+import SvgIcon from '@/components/SvgIcon/index.vue';
 
 </script>
 <style lang='scss' scoped>
