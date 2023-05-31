@@ -1,11 +1,14 @@
 <template>
 
-<div>vue3</div>
+<div>
+    <el-button type="primary">btn</el-button>
+</div>
 
 </template>
 
 <script lang='ts' setup>
 import { ref,reactive } from 'vue'
+
 
 </script>
 <style lang='scss' scoped>
