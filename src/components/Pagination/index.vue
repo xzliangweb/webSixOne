@@ -1,8 +1,6 @@
 <template>
 
-<div>
-    <el-button type="primary">btn</el-button>
-</div>
+<div>vue3</div>
 
 </template>
 
