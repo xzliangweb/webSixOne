@@ -1,8 +1,24 @@
+<!-- <template>
+  <div>123</div>
+</template>
+
+<script lang="ts" setup>
+import { onMounted } from 'vue'
+import {reqLogin} from './api/user'
+
+const getReqLogin = () => {
+    reqLogin({username:'admin',password:'1234'})
+}
+
+onMounted(() => {
+    getReqLogin()
+})
+</script>
+<style lang="scss" scoped></style> -->
+
 <template>
 
-<div>
-    <el-button type="primary">btn</el-button>
-</div>
+<router-view></router-view> 
 
 </template>
 
